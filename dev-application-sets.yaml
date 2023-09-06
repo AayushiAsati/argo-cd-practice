@@ -15,7 +15,7 @@ spec:
       source:
         repoURL: https://github.com/AayushiAsati/argo-cd-practice.git
         targetRevision: master
-        path: argo-cd-practice
+        path: guestbook
       destination:
         server: '{{server}}'
         namespace: guestbook-1
